@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/GameWinImage"
+    android:background="@drawable/voilet">
+
+
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/congrats"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/winImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:fontFamily="cursive"
+        android:layout_centerInParent="true"
+        android:id="@+id/pName"
+        android:text="Player"
+        android:textColor="#000"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_below="@id/pName"
+        android:layout_centerInParent="true"
+        android:fontFamily="cursive"
+        android:id="@+id/congratsText"
+        android:text="আপনি জয়ী হয়েছেন"
+        android:textColor="#000"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/nextMenu"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="Next"
+        android:textColor="#fff"
+        android:background="@drawable/button_bg_round_corners_wrong"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

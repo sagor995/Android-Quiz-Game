@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mainMenuTheme">#f51f13</color>
+    <color name="mainMenuButtonsColor">#07c624</color>
+
+    <color name="fbColor">#4e71a8</color>
+    <color name="twitterColoer">#00aded</color>
+    <color name="pinterestColor">#cb2026</color>
+    <color name="linkdinColor">#007bb6</color>
+    <color name="emailColor">#ffce45</color>
+    <color name="plusColor">#ff0062</color>
+    <color name="googleColor">#dd4c3b</color>
+
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="@drawable/whitescreen">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/aboutText"
+        android:textSize="40sp"
+        android:text="   About Game   "
+        android:textAlignment="center"
+
+        android:background="@drawable/button_bg_round_corners_select"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:layout_below="@id/aboutText"
+        android:id="@+id/infoText"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:text="This is a Simple Quiz Game.
+        \nIn this Game Player have to answer certain
+question in given time. The Player Can Select Category before playing Game.
+Player Can Use Three Types Of HelpLine:
+1.Half-HelpLine: In Which 2 Options will be gone.
+2.Percent_HelpLine:A Window Will Appear in Which percentage will be shown
+ of each options to be correct
+3.Hint-HelpLine:
+Player will earn point for each correct answer.
+for wrong answer game will be over directly.
+"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:paddingBottom="5dp"
+        android:layout_below="@id/infoText"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/goToM"
+        android:text="  মেনুতে ফিরে যান  "
+        android:textSize="18sp"
+        android:background="@drawable/buttons_style_other3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+   <!-- <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dev_info"
+        android:paddingBottom="5dp"
+        android:layout_below="@id/infoText"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:text="  Dev info.  "
+        android:textSize="18sp"
+        android:background="@drawable/buttons_style_other3"/>-->
+</RelativeLayout>
+</ScrollView>

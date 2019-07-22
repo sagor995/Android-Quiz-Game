@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/voilet"
+    >
+
+
+    <TextView
+        android:id="@+id/gameSound"
+        android:layout_margin="20dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Sound"
+        android:textSize="25sp"
+        android:textColor="#f9fcf9"/>
+    <Button
+        android:textColor="#fff"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/gameSound"
+        android:textSize="20sp"
+        android:id="@+id/soundon"
+        android:background="@drawable/buttons_style"
+        android:text="   on   "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="#fff"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/gameSound"
+        android:textSize="20sp"
+        android:id="@+id/soundoff"
+        android:background="@drawable/buttons_style"
+        android:text="   off   "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/language_select"
+        android:layout_margin="20dp"
+        android:layout_below="@id/soundon"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Language"
+        android:textSize="25sp"
+        android:textColor="#f9fcf9"/>
+    <Button
+
+        android:textColor="#fff"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/soundon"
+
+        android:textSize="20sp"
+        android:id="@+id/banglaLanguage"
+        android:background="@drawable/buttons_style"
+        android:text="       বাংলা      "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="#fff"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/soundoff"
+        android:textSize="20sp"
+        android:id="@+id/englishLanguage"
+        android:background="@drawable/buttons_style"
+        android:text="  English  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+    <Button
+        android:layout_toRightOf="@id/adView"
+        android:id="@+id/soundback"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_style"
+        android:gravity="center"
+        android:text="  go to menu  "
+        android:textColor="#fff"
+        android:textSize="20sp" />
+    <Button
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/adView"
+        android:id="@+id/creditWindow"
+        android:layout_alignParentBottom="true"
+
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_style"
+        android:gravity="center"
+        android:text="   গেম তথ্য   "
+        android:textColor="#fff"
+        android:textSize="20sp" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sa.agd.gameofchoice">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Game Of Choice"
+        android:screenOrientation="landscape"
+        android:configChanges="keyboardHidden|orientation"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+
+        <activity android:name=".LanguageActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="keyboardHidden|orientation"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".UserNameActivity" android:windowSoftInputMode="stateHidden" android:label="User Name" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+        <activity android:name=".RateActivity" android:label="Rate" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".QuizActivity" android:label="Game Of Choice" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"></activity>
+        <activity android:name=".OptionsActivity" android:label="Scores" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".MenuActivity" android:label="Menu" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".ScoreActivity" android:label="Menu" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name="com.sa.agd.RecycleBin.SoundActivity" android:label="Sound" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".SplashActivity" android:label="Splash" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".LoadingActivity" android:label="Loading" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".CategoryActivity" android:label="Category" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".GameWinActivity" android:label="Category" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".InfoActivity" android:label="Category" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+    </application>
+
+</manifest>

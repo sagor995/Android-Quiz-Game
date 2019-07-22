@@ -1,0 +1,57 @@
+<resources>
+    <string name="reward_admob_app_id">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="intertial_ads">ca-app-pub-3940256099942544/1033173712</string>
+
+   <!-- <string name="reward_admob_app_id">ca-app-pub-5358264522471884/4361715485</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5358264522471884/1205794446</string>
+    <string name="intertial_ads">ca-app-pub-5358264522471884/5630864500</string>-->
+
+
+
+    <string name="facebook_app_id">333741153737989</string>
+    <string name="app_name">কুইজ গেম</string>
+    <string name="score_name">গেম স্কোর</string>
+
+    <string name="questionName">প্রশ্ন: ১</string>
+    <string name="questionNo">1</string>
+
+    <string name="questions"> বাংলাদেশের আয়তন কত ? </string>
+
+
+    <string name="OptionA">ক) ১,৪৭,৫৭০ বর্গকিঃমিঃ</string>
+    <string name="OptionB">খ) ২,২০,৫৭০ বর্গকিঃমিঃ</string>
+    <string name="OptionC">গ) ১,৩৭,৫৭০ বর্গকিঃমিঃ</string>
+    <string name="OptionD">ঘ) ১,২০,৫৭০ বর্গকিঃমিঃ</string>
+
+    <string name="submitButton">লক করুন</string>
+
+    <string name="label">লেভেলঃ </string>
+
+    <string name="helpLine">হেল্প লাইন</string>
+
+    <string name="earnText">০ পয়েন্ট</string>
+
+
+    <string name="welcomeText">কুইজ গেমে স্বাগতম!</string>
+    <string name="userText"> ইউজার </string>
+    <string name="startPlay"> শুরু করুন</string>
+    <string name="playAgain">আবার খেলুন</string>
+    <string name="newGame">নতুন</string>
+    <string name="Score">স্কোর</string>
+    <string name="exitGame">প্রস্থান</string>
+    <string name="others">বিকল্প</string>
+
+
+    <string name="options"> বিকল্প</string>
+
+    <!--Score Activity-->
+    <string name="scoreHeader">স্কোর সমূহ</string>
+    <string name="highestScore">সর্বোচ্চ স্কোর </string>
+    <string name="restartGame">আবার খেলুন</string>
+    <string name="resetHighScore">      </string>
+    <string name="goToMenu">      </string>
+
+
+
+</resources>

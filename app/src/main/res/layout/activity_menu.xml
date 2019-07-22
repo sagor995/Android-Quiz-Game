@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuHeader"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/goce">
+
+
+    <Button
+        android:layout_marginRight="10dp"
+        android:visibility="invisible"
+        android:id="@+id/B1"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="start"
+        android:textSize="18sp"
+        android:background="#000"
+        android:textColor="#fffefe"
+        />
+    <Button
+        android:layout_marginRight="10dp"
+        android:visibility="invisible"
+        android:background="#000"
+        android:layout_below="@id/B1"
+        android:layout_marginTop="20dp"
+        android:id="@+id/B2"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="start"
+        android:textSize="18sp"
+        android:textColor="#fffefe"
+     />
+
+    <Button
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_toLeftOf="@id/B1"
+        android:id="@+id/StartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:text="start"
+        android:textSize="18sp"
+        android:textColor="#fffefe"
+        android:background="@drawable/buttons_style"/>
+
+    <Button
+
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/B1"
+        android:id="@+id/HighScoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="score"
+        android:textSize="18sp"
+        android:textColor="#fffefe"
+        android:background="@drawable/buttons_style"/>
+
+
+    <Button
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="40dp"
+        android:layout_below="@id/StartButton"
+        android:layout_toLeftOf="@id/B2"
+        android:id="@+id/OptionsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fffefe"
+        android:text="option"
+        android:textSize="18sp"
+        android:background="@drawable/buttons_style"/>
+
+
+
+    <Button
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/B2"
+        android:layout_below="@id/HighScoreButton"
+        android:id="@+id/ExitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="quit"
+        android:textColor="#fffefe"
+        android:textSize="18sp"
+
+        android:background="@drawable/buttons_style" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        "
+        android:textSize="30sp"
+        android:id="@+id/rate_me"
+        android:layout_marginRight="18dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginBottom="25dp"/>
+
+    <ImageView
+        android:id="@+id/social_share"
+        android:src="@drawable/shareicon"
+        android:layout_margin="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="70dp"
+        android:layout_height="80dp" />
+
+</RelativeLayout>

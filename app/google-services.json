@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "342368698485",
+    "firebase_url": "https://game-of-choice-732c1.firebaseio.com",
+    "project_id": "game-of-choice-732c1",
+    "storage_bucket": "game-of-choice-732c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342368698485:android:c8d4a75872083da0",
+        "android_client_info": {
+          "package_name": "com.sa.agd.gameofchoice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342368698485-p7tpfabhn5dl0t81coo2qkrrm0itd635.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sa.agd.gameofchoice",
+            "certificate_hash": "a2b0794553bc614c056f7fa7a0dd5a441d91d9f2"
+          }
+        },
+        {
+          "client_id": "342368698485-ffv81tvhb394ar86eb0gfdjlku5qmbf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVyddYPYmPl84ssZ0sdxvKIG4nD_z0DSM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342368698485-ffv81tvhb394ar86eb0gfdjlku5qmbf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

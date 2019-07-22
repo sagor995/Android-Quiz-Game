@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitescreen">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/rate_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#005299"
+        android:textSize="30sp"
+        android:text="App Rating"/>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/rate_text"
+        android:id="@+id/rate_result"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:textAlignment="center"
+
+        android:text="If you enjoy This Quiz Game.
+ Please take a moment to rate this Game.
+ It won't take more than a minute.
+ Thanks for you support."/>
+
+<!--<RatingBar
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/rate_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/rate_app"
+    style="?android:attr/ratingBarStyle"
+    android:numStars="5"
+    android:rating="2.5"
+    android:stepSize="0.5"
+    android:layout_gravity="center"/>-->
+    <Button
+
+        android:layout_marginTop="30dp"
+        android:id="@+id/rate_btwn"
+        android:layout_below="@id/rate_result"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg_round_corners_correct"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:text="  Rate  "
+        android:layout_margin="10dp"/>
+
+    <!--<TextView
+        android:id="@+id/rate_marks"
+        android:layout_below="@id/rate_btwn"
+        android:layout_toRightOf="@id/rate_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Good"
+        android:textSize="30sp"
+        android:textColor="#0e5600"
+        />&ndash;&gt;-->
+    <Button
+        android:id="@+id/back_btwn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_style"
+        android:textColor="#f9f9fa"
+        android:textSize="20sp"
+        android:text="   Go To Menu   "
+        android:layout_margin="10dp"
+        />
+
+</RelativeLayout>

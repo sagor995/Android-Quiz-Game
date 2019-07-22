@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:textColor="#fff"
+        android:text="Name"
+        android:background="@drawable/buttons_style"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:id="@+id/nameView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="#fff"
+        android:text="70"
+        android:background="@drawable/button_bg_round_corners_wrong"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:id="@+id/scoreView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="#fff"
+        android:text="Category"
+        android:background="@drawable/button_bg_round_corners_correct"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:id="@+id/categoryViews"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbluescreen">
+
+    <Button
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bangla_select"
+        android:text=" বাংলা "
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_style"/>
+    <Button
+        android:textSize="15sp"
+        android:layout_below="@+id/bangla_select"
+        android:layout_centerInParent="true"
+        android:id="@+id/english_select"
+        android:text=" English "
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_style"/>
+</RelativeLayout>

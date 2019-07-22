@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginHeader"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen">
+
+
+    <ProgressBar
+        android:id="@+id/gameLoader"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_margin="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:max="40"
+        android:indeterminate="false"
+        android:progress="0"
+       android:progressBackgroundTint="#9dc3fc"
+        android:progressDrawable="@drawable/horizontal_progress"
+
+        />
+</RelativeLayout>
